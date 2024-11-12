@@ -1,0 +1,290 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitchen Essentials</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">KE</a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#cookware">Cookware</a></li>
+          <li><a href="#utensils">Utensils</a></li>
+          <li><a href="#storage">Storage</a></li>
+          <li><a href="#baking">Baking</a></li>
+        </ul>
+        <div class="nav-actions">
+          <input type="text" placeholder="Search..." class="search-bar" />
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button class="burger" onclick="toggleMenu()">☰</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Upgrade Your Kitchen Essentials</h1>
+          <p>
+            Discover top-quality cookware, utensils, storage, and baking tools
+            for every kitchen.
+          </p>
+          <a href="#categories" class="cta-button">Shop Now</a>
+        </div>
+      </section>
+
+      <!-- Categories Section -->
+      <section id="categories" class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+          <div class="category-card">
+            <h3>Cookware</h3>
+          </div>
+          <div class="category-card">
+            <h3>Utensils</h3>
+          </div>
+          <div class="category-card">
+            <h3>Storage</h3>
+          </div>
+          <div class="category-card">
+            <h3>Baking</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products Section -->
+      <section id="featured-products" class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img
+              src="./images/1x1_STAHL_03_2022_8090_1.jpg"
+              alt="Non-stick Pan"
+            />
+            <h4>Non-stick Pan</h4>
+            <p>$24.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/how-to-master-basics-of-baking-at-home.webp"
+              alt="Stainless Steel Whisk"
+            />
+            <h4>Stainless Steel Whisk</h4>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/istockphoto-1405383671-612x612.jpg"
+              alt="Non-stick Pan"
+            />
+            <h4>Non-stick Pan</h4>
+            <p>$24.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/PC-110S-200_2.webp"
+              alt="Stainless Steel Whisk"
+            />
+            <h4>Stainless Steel Whisk</h4>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./images/PSP02353Approved.webp" alt="Non-stick Pan" />
+            <h4>Non-stick Pan</h4>
+            <p>$24.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/Steel-utensils-business-opportunities.jpg"
+              alt="Stainless Steel Whisk"
+            />
+            <h4>Stainless Steel Whisk</h4>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/storage-bins-and-containers-lead-cnnu.jpg"
+              alt="Non-stick Pan"
+            />
+            <h4>Non-stick Pan</h4>
+            <p>$24.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img
+              src="./images/1x1_STAHL_03_2022_8090_1.jpg"
+              alt="Stainless Steel Whisk"
+            />
+            <h4>Stainless Steel Whisk</h4>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promotions/Bundles Section -->
+      <section class="promotions">
+        <h2>Exclusive Bundles & Promotions</h2>
+        <div class="promotion-card">
+          <img
+            src="./images/how-to-master-basics-of-baking-at-home.webp"
+            alt="Bundle Deal"
+          />
+          <div class="promotion-info">
+            <h3>Ultimate Kitchen Bundle</h3>
+            <p>
+              Get 20% off on a curated set of essentials to upgrade your
+              kitchen.
+            </p>
+            <a href="#" class="cta-button">Shop Bundle</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Best Sellers Section -->
+      <section class="best-sellers">
+        <h2>Best Sellers</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="./images/PSP02353Approved.webp" alt="Silicone Spatula" />
+            <h4>Silicone Spatula</h4>
+            <p>$12.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./images/PSP02353Approved.webp" alt="Silicone Spatula" />
+            <h4>Silicone Spatula</h4>
+            <p>$12.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./images/PSP02353Approved.webp" alt="Silicone Spatula" />
+            <h4>Silicone Spatula</h4>
+            <p>$12.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <!-- Repeat for other best sellers -->
+        </div>
+      </section>
+
+      <!-- Customer Testimonials Section -->
+      <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>
+              "The non-stick pan is amazing! Food slides right off. Great
+              quality!"
+            </p>
+            <span>- Sarah W.</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "The non-stick pan is amazing! Food slides right off. Great
+              quality!"
+            </p>
+            <span>- Sarah W.</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "The non-stick pan is amazing! Food slides right off. Great
+              quality!"
+            </p>
+            <span>- Sarah W.</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "The non-stick pan is amazing! Food slides right off. Great
+              quality!"
+            </p>
+            <span>- Sarah W.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Stay Updated!</h2>
+        <p>
+          Subscribe to our newsletter for the latest updates and exclusive
+          discounts.
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>Kitchen Essentials</h2>
+          <p>
+            Your one-stop shop for quality cookware, utensils, storage
+            solutions, and baking tools. Crafted for home cooks and kitchen
+            enthusiasts.
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section customer-service">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section social-media">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section newsletter">
+          <h3>Newsletter</h3>
+          <p>Subscribe for updates and exclusive offers!</p>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Kitchen Essentials | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
